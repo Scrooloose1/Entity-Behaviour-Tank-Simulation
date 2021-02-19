@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+
+<!--CO3301 - Games Development 2-->
+<!--UCLan BSc(Hons) Computer Games Development-->
+<!--Assignment 1 - Tank Entities->
+<!--Mark Ince-->
+
+<!-- Level Setup -->
+
+<Scene>
+ <!-- Entity Templates -->
+  <Template 
+	  Type="Scenery" 
+	  Name="Skybox" 
+	  Mesh="Skybox.x" 
+  />
+  <Template 
+	  Type="Scenery" 
+	  Name="Building" 
+	  Mesh="Building.x" 
+  />
+  <Template 
+	  Type="Scenery" 
+	  Name="Floor" 
+	  Mesh="Floor.x"
+  />
+  <Template 
+	  Type="Scenery" 
+	  Name="Tree" 
+	  Mesh="Tree1.x"
+  />
+  <Template 
+	  Type="Projectile" 
+	  Name="Shell Type 1" 
+	  Mesh="Bullet.x"
+  />
+  <Template 
+	  Type="Health" 
+	  Name="HealthPack" 
+	  Mesh="HealthPack.x"
+  />
+  <Template 
+	  Type="Ammo" 
+	  Name="AmmoPack" 
+	  Mesh="AmmoPack.x"
+  />
+  <TankTemplate 
+	  Type="Tank" 
+	  Name="Rogue Scout" 
+	  Mesh="HoverTank02.x" 
+	  TopSpeed="24.0" 
+	  Acceleration="2.2"
+	  TankTurnSpeed="2.0"
+	  TurretTurnSpeed="1.03" 
+	  MaxHP="100" 
+	  ShellDamage="20"
+  />
+  <TankTemplate 
+	  Type="Tank" 
+	  Name="Oberon MkII" 
+	  Mesh="HoverTank07.x"
+	  TopSpeed="18.0" 
+	  Acceleration="1.6" 
+	  TankTurnSpeed="1.3" 
+	  TurretTurnSpeed="0.78" 
+	  MaxHP="120" 
+	  ShellDamage="35"
+  />
+</Scene>
